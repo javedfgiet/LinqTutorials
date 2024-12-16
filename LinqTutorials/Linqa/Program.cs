@@ -10,6 +10,9 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
+            LinqQueryToArray obj=new LinqQueryToArray();
+            obj.LinqQuery();
+            Console.ReadLine();
         }
     }
 }
