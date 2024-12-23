@@ -10,8 +10,15 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-            LinqQueryToArray obj=new LinqQueryToArray();
-            obj.LinqQuery();
+
+            WhereMethods obj = new WhereMethods();
+            var result = obj.GetStudents();
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.StudentID + " " + item.StudentName + " " + item.Age);
+
+            }
             Console.ReadLine();
         }
     }
