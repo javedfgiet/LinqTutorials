@@ -10,15 +10,12 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-
-            WhereMethods obj = new WhereMethods();
-            var result = obj.GetStudents();
-
-            foreach (var item in result)
+            var result = new JoiningOperator();
+            foreach (var item in result.JoinOperator())
             {
-                Console.WriteLine(item.StudentID + " " + item.StudentName + " " + item.Age);
-
+               Console.WriteLine(item);
             }
+
             Console.ReadLine();
         }
     }
