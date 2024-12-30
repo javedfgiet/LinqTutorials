@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AggregateOps.cs" />
+    <Compile Include="AllAnyContains.cs" />
+    <Compile Include="AverageOperator.cs" />
     <Compile Include="GroupByOps.cs" />
     <Compile Include="JoiningOperator.cs" />
     <Compile Include="LambdaExpression.cs" />
@@ -53,6 +56,8 @@
     <Compile Include="OrderByOperators.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectManyClass.cs" />
+    <Compile Include="SelectQuery.cs" />
     <Compile Include="ThenByOperator.cs" />
     <Compile Include="ToLookUp.cs" />
     <Compile Include="WhereMethods.cs" />

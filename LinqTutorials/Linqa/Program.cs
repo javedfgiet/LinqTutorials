@@ -10,12 +10,8 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-            var result = new JoiningOperator();
-            foreach (var item in result.JoinOperator())
-            {
-               Console.WriteLine(item);
-            }
-
+            AggregateOps obj =new AggregateOps();
+            obj.AggregatedStudentWithResultSelector();
             Console.ReadLine();
         }
     }
