@@ -10,9 +10,11 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-            AggregateOps obj =new AggregateOps();
-            obj.AggregatedStudentWithResultSelector();
+            SumOperator obj =new SumOperator();
+            obj.SumOfAtudentAge();
             Console.ReadLine();
+
+
         }
     }
 }
