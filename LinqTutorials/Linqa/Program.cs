@@ -10,8 +10,8 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-            SumOperator obj =new SumOperator();
-            obj.SumOfAtudentAge();
+            Single_SingleOrDefault obj =new Single_SingleOrDefault();
+            obj.Get_SingleOrDefault();
             Console.ReadLine();
 
 

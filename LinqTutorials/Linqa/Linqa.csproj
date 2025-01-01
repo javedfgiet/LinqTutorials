@@ -47,9 +47,12 @@
     <Compile Include="AllAnyContains.cs" />
     <Compile Include="AverageOperator.cs" />
     <Compile Include="CountOperator.cs" />
+    <Compile Include="ElementOperator.cs" />
+    <Compile Include="FirstOrFirstOrDefault.cs" />
     <Compile Include="GroupByOps.cs" />
     <Compile Include="JoiningOperator.cs" />
     <Compile Include="LambdaExpression.cs" />
+    <Compile Include="Last&amp;LastOrDefault.cs" />
     <Compile Include="LinqMethodSyntax.cs" />
     <Compile Include="LinqQuerySyntax.cs" />
     <Compile Include="LinqQueryToArray.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectManyClass.cs" />
     <Compile Include="SelectQuery.cs" />
+    <Compile Include="Single_SingleOrDefault.cs" />
     <Compile Include="SumOperator.cs" />
     <Compile Include="ThenByOperator.cs" />
     <Compile Include="ToLookUp.cs" />
