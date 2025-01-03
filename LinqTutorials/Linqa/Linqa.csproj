@@ -46,10 +46,16 @@
     <Compile Include="AggregateOps.cs" />
     <Compile Include="AllAnyContains.cs" />
     <Compile Include="AverageOperator.cs" />
+    <Compile Include="ConcatOps.cs" />
+    <Compile Include="ConversionOperator.cs" />
     <Compile Include="CountOperator.cs" />
+    <Compile Include="ExceptOps.cs" />
+    <Compile Include="GenOps_DefaultIFEmpty.cs" />
     <Compile Include="ElementOperator.cs" />
     <Compile Include="FirstOrFirstOrDefault.cs" />
+    <Compile Include="GenOps_EmptyRangeRepeat.cs" />
     <Compile Include="GroupByOps.cs" />
+    <Compile Include="IntersectOps.cs" />
     <Compile Include="JoiningOperator.cs" />
     <Compile Include="LambdaExpression.cs" />
     <Compile Include="Last&amp;LastOrDefault.cs" />
@@ -59,14 +65,19 @@
     <Compile Include="MaxOperator.cs" />
     <Compile Include="OFtype.cs" />
     <Compile Include="OrderByOperators.cs" />
+    <Compile Include="PO_Skip_SkipWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectManyClass.cs" />
     <Compile Include="SelectQuery.cs" />
+    <Compile Include="SequenceEqualOps.cs" />
+    <Compile Include="SetOperator_Distinct.cs" />
     <Compile Include="Single_SingleOrDefault.cs" />
     <Compile Include="SumOperator.cs" />
+    <Compile Include="Take_TakeWhile.cs" />
     <Compile Include="ThenByOperator.cs" />
     <Compile Include="ToLookUp.cs" />
+    <Compile Include="UnionOps.cs" />
     <Compile Include="WhereMethods.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,8 +10,8 @@ namespace Linqa
     {
         static void Main(string[] args)
         {
-            Single_SingleOrDefault obj =new Single_SingleOrDefault();
-            obj.Get_SingleOrDefault();
+            ConversionOperator obj =new ConversionOperator();
+            obj.ToArray_ToList_ToDictionary();
             Console.ReadLine();
 
 
